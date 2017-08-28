@@ -1,0 +1,43 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "this is my blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "express",
+    "es2015"
+  ],
+  "author": "gyyin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "babel-runtime": "^6.23.0",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less-loader": "^4.0.2",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^1.3.3",
+    "prop-types": "^15.5.8",
+    "pull-element": "^1.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.6.1",
+    "react-slick": "^0.14.11",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^1.14.0"
+  }
+}

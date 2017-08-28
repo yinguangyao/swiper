@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+  .swiper .swiper-wrap {
+    zoom: 1; }
+    .swiper .swiper-wrap::after {
+      content: "";
+      display: table;
+      clear: both;
+      height: 0; }
+    .swiper .swiper-wrap img, .swiper .swiper-wrap div {
+      position: relative;
+      float: left;
+      height: 180px;
+      width: 100%; }
+    .swiper .swiper-wrap img {
+      max-width: 100%; }
+  .swiper .swiper-dot {
+    position: absolute;
+    bottom: 10px;
+    z-index: 100px;
+    left: 42%;
+    margin: 0 auto;
+    text-align: center; }
+    .swiper .swiper-dot span {
+      border-radius: 50%;
+      background-color: white;
+      border: 1px solid gray;
+      width: 10px;
+      height: 10px;
+      margin-right: 8px;
+      float: left; }
+    .swiper .swiper-dot .cur {
+      background-color: gray; }
