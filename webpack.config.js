@@ -24,7 +24,7 @@ var config = {
             exclude: /node_modules/,
             loader: "babel"
         }, {
-            test: /\.(less|scss|sass|css)$/,
+            test: /\.(scss|sass|css)$/,
             loader: ExtractTextPlugin.extract("style", "css!sass-loader", {
                 publicPath: '../'
             })
