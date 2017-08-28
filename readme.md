@@ -2,7 +2,7 @@
  I rewrite thebird's swipe by React, so this is a React component of mobile swipe.
  Here is thebird's swipe: https://github.com/thebird/Swipe
 ### demo
-
+Here is URL: https://yinguangyao.github.io/swiper/build/
 ### run
 ```
 npm install
