@@ -66,6 +66,7 @@ You must use a few styles like this:
     }
 }
 ```
+notice: classname must be these.
 ### Props
 + startSlide Integer (default:0) - index position Swipe should start at
 
