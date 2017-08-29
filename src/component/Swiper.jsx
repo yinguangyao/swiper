@@ -368,7 +368,7 @@ class Swiper extends React.Component {
 
         // determine direction of swipe (true:right, false:left)
         var direction = this.delta.x < 0;
-
+        this.delay = props.auto;
         // if not scrolling vertically
         if (!isScrolling) {
 
@@ -477,7 +477,7 @@ class Swiper extends React.Component {
 Swiper.defaultProps = {
     startSlide: 0,
     continuous: true,
-    speed: 300,
+    speed: 1000,
     auto: 300,
     disableScroll: false,
     transitionEnd: function () { },
