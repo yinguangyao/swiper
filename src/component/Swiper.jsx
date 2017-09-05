@@ -36,20 +36,12 @@ class Swiper extends React.Component {
     }
     componentDidMount() {
         this.setup();
-        // add event listeners
-        if (this.browser.addEventListener) {
-            // set resize event on window
-            window.addEventListener('resize', this.setup, false);
-        } else {
-            window.onresize = () => { this.setup() }; // to play nice with old IE
-        }
     }
     // remove all events
     componentWillUnmount() {
         window.removeEventListener("touchStart", this.touchStart);
         window.removeEventListener("touchMove", this.touchMove);
         window.removeEventListener("touchEnd", this.touchEnd);
-        window.removeEventListener('resize', this.setup);
     }
     offloadFn(fn) {
         const noop = () => { }
