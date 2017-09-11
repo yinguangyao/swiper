@@ -10,10 +10,10 @@ npm start
 ```
 ### Usage
 ```
-<Swiper width="100%" height="auto">
-	<img src="" alt="" />
-	<img src="" alt="" />
-	<img src="" alt="" />
+<Swiper>
+	<img src="" alt="" style={{width: "100%"}} />
+	<img src="" alt="" style={{width: "100%"}} />
+	<img src="" alt="" style={{width: "100%"}} />
 </Swiper>
 ```
 You must use a few styles like this:
